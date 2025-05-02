@@ -1,5 +1,5 @@
 #include <msp430.h>
 
-void pilotValve_Init();
+void pilotValveInit();
 void openPilotValve();
 void closePilotValve();

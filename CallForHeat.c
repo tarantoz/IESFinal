@@ -1,9 +1,11 @@
 #include "CallForHeat.h"
 
 // States of call for heat signal
-enum states{IDLE, HEATING} state;
 
-// Returns 0 if in IDLE state, returns 1 in the HEATING state
+
+enum states{IDLE, HEATING}  state;
+
+//Returns of one if call of heat signal is detected, 0 otherwise
 char callForHeat()
 {
     if(state == IDLE)
